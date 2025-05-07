@@ -1,0 +1,4 @@
+Microservice: user-management-service
+Technologies: Node.js, Express, TypeScript, Zod, dotenv
+Responsibilities: Handles user profile management, CRUD operations for users. No direct dependencies on other services. RESTful API. Self-contained and independently deployable.
+Boundaries: Only user management logic; no authentication or token management logic. 
