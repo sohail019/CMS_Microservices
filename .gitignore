@@ -1,0 +1,35 @@
+# Ignore node_modules in all subfolders
+**/node_modules/
+
+# Ignore build output (dist or build folders) in all subfolders
+**/dist/
+**/build/
+
+# TypeScript cache files
+**/*.tsbuildinfo
+
+# Logs
+**/logs/
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variable files
+**/.env
+**/.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor config files
+.vscode/
+.idea/
+*.swp
+
+# Testing coverage
+**/coverage/
+
+# Misc
+*.tgz
