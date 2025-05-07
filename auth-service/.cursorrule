@@ -1,0 +1,4 @@
+Microservice: auth-service
+Technologies: Node.js, Express, TypeScript, Zod, dotenv
+Responsibilities: Handles authentication (login, registration, token management). No direct dependencies on other services. RESTful API. Self-contained and independently deployable.
+Boundaries: Only authentication logic; no user profile or management logic. 
